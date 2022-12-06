@@ -206,7 +206,7 @@ public class BackgroundCallJavaActivity extends AppCompatActivity {
         if (enabled) {
             colorStateList = ColorStateList.valueOf(ContextCompat.getColor(this, R.color.white_55));
         } else {
-            colorStateList = ColorStateList.valueOf(ContextCompat.getColor(this, R.color.accent));
+            colorStateList = ColorStateList.valueOf(ContextCompat.getColor(this, R.color.white));
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             button.setBackgroundTintList(colorStateList);
